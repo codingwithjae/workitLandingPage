@@ -99,7 +99,7 @@
 
 .button-container:hover {
   background-color: var(--DarkBlue);
-  color: var(--Green);
+
 }
 
 .container-box-2 a {
@@ -107,6 +107,7 @@
   letter-spacing: 2px;
   color: var(--DarkBlue);
   font-weight: 400px;
+
 }
 
 .container-box-2 a:hover {
@@ -242,7 +243,7 @@
   text-decoration: none;
   text-transform: uppercase;
   background-color: var(--Green);
-  color: black;
+  color: var(--Black);
   padding: 20px 30px;
   display: inline-block;
   letter-spacing: 2px;
@@ -309,6 +310,10 @@
     text-align: center;
   }
 
+  .call-to-action a {
+    font-size: var(--HeadingXSs)
+  }
+
   .logo-container {
     grid-template-columns: 25% 55%;
     margin-bottom: -10px;
@@ -351,8 +356,8 @@
     height: 349px;
   }
 
-  .right h2 {
-    font-size: 35px;
+  .content h2 {
+    font-size: var(--HeadingM);
   }
 
   .right {
