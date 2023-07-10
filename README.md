@@ -65,3 +65,4 @@ The users should be able to:
 ## Author
 
 - Frontend Mentor - [@jaegit123](https://www.frontendmentor.io/profile/jaegit123)
+- Check out my [portfolio](https://codingwithjae.dev/)
