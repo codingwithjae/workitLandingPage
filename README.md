@@ -35,7 +35,7 @@ The users should be able to:
 ### Screenshot
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW8zZ3ltZ2locTQ1N3A4cTBoODVpd25xdm0wMWk1ang1c3h2bTZ0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HLY7Hgzc5hGgVhmglY/giphy.gif" alt="Screenshot"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGhjbWNkOWwxdDc3ajlxcHpoc2pnbnI1aWNsdGliamtlYThpemo2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PbhOECKb3fGkpQOqLX/giphy.gif" alt="Screenshot"/>
 </p>
 
 
@@ -49,13 +49,12 @@ The users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup.
-- Flexbox.
-- CSS Grid.
+- HTML.
+- CSS.
 
 ### What I learned
 
-- This is my first ever project of Front End. This is a new version of the original repository that I upload to GitHub. In this version, I remade the website entirely and fix some issues with media queries and responsiveness.
+- This is my first ever project of Front End. This is a new version of the original repository that I upload to GitHub. In this version, I remade the website entirely and fix some issues with media queries and responsiveness. This project was a great exercise for practicing CSS Grid and CSS Flexbox.
 
 
 ### What can be improve

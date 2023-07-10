@@ -1,9 +1,9 @@
 :root {
-  --White: #FFFFFF;
-  --Gray: #7A746E;
-  --DarkBlue: #24053E;
-  --Cream: #FCF8FF;
-  --Green: #44FFA1;
+  --White: #ffffff;
+  --Gray: #7a746e;
+  --DarkBlue: #24053e;
+  --Cream: #fcf8ff;
+  --Green: #44ffa1;
   --Black: #030303;
   --LightBlack: #242424;
   --HeadingXXXL: 80px;
@@ -18,7 +18,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 
 .logo-container {
@@ -28,7 +27,7 @@
   background-color: var(--DarkBlue);
   padding: 10px;
   text-align: center;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .container-layout-header {
@@ -84,7 +83,7 @@
 .button-container {
   width: 181px;
   height: 61px;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   margin-top: 50px;
   text-align: center;
   display: flex;
@@ -98,7 +97,7 @@
 .button-container:hover {
   background: none;
   border: 2px solid var(--Green);
-  height: 57px
+  height: 57px;
 }
 
 .button-container:hover .button {
@@ -110,7 +109,6 @@
   letter-spacing: 2px;
   color: var(--DarkBlue);
   font-weight: 400px;
-
 }
 
 .container-box-2 a:hover {
@@ -125,8 +123,8 @@
 .content-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 140px;
+  margin-right: 140px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -155,7 +153,7 @@
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 50px;
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
 }
 
 .container-box p {
@@ -164,7 +162,7 @@
   line-height: 22px;
   padding: 25px;
   font-weight: 400;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .container-box h3 {
@@ -177,6 +175,10 @@
   background-color: var(--White);
 }
 
+.wave-blue-color {
+  margin-bottom: -10px;
+}
+
 .wave-cream-color {
   margin-bottom: -160px;
 }
@@ -185,7 +187,7 @@
   width: 100%;
   max-width: 1200px;
   height: 8%;
-  margin: 50px auto;
+  margin: 150px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -195,7 +197,8 @@
 .left {
   width: 377px;
   height: 377px;
-  background: url(resources/assets/images/image-founder.webp) no-repeat center / cover;
+  background: url(resources/assets/images/image-founder.webp) no-repeat center /
+    cover;
 }
 
 .right {
@@ -214,18 +217,18 @@
 }
 
 .right h2 {
-  font-size: 40px;
+  font-size: var(--HeadingM);
   font-style: normal;
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   font-weight: 600px;
 }
 
 .right p {
-  margin: 20px 0;
-  font-weight: 200px;
+  margin: 20px 10px;
+  font-weight: 400;
   line-height: 25px;
-  font-family: 'Manrope', sans-serif;
-  font-size: 15px;
+  font-family: "Manrope", sans-serif;
+  font-size: var(--HeadingXS);
   line-height: 32px;
 }
 
@@ -237,7 +240,7 @@
   padding: 20px 30px;
   display: inline-block;
   letter-spacing: 2px;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
 }
 
@@ -249,7 +252,7 @@
   padding: 20px 30px;
   display: inline-block;
   letter-spacing: 2px;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
 }
 
@@ -258,6 +261,7 @@
   background-color: var(--White);
   justify-content: center;
   padding: 30px;
+  margin-top: -30px;
 }
 
 .footer-icons-container {
@@ -302,12 +306,11 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 70px;
   margin-bottom: 25px;
   cursor: pointer;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
-
 
 .link {
   text-decoration: none;
@@ -317,9 +320,7 @@
   color: var(--DarkPurple);
 }
 
-
-@media only screen and (max-width:767px) {
-
+@media only screen and (max-width: 767px) {
   .container-box-2 {
     width: 350px;
   }
@@ -337,7 +338,7 @@
   }
 
   .call-to-action a {
-    font-size: var(--HeadingXSs)
+    font-size: var(--HeadingXSs);
   }
 
   .logo-container {
@@ -350,7 +351,7 @@
   }
 
   #margin-on-mobile {
-    margin-top: 150px;
+    margin-top: 160px;
   }
 
   .content-main-container {
@@ -382,10 +383,6 @@
     height: 349px;
   }
 
-  .content h2 {
-    font-size: var(--HeadingM);
-  }
-
   .right {
     width: 75%;
     margin: 0px;
@@ -412,11 +409,9 @@
   .pattern-3 {
     display: none;
   }
-
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1115px) {
-
   .container-box-2 {
     width: 350px;
   }
@@ -443,7 +438,7 @@
   }
 
   #margin-on-mobile {
-    margin-top: 70px;
+    margin-top: 150px;
   }
 
   .content-main-container {
@@ -470,7 +465,7 @@
   .content-box h2 {
     position: relative;
     right: 280px;
-    top: 140px;
+    top: 120px;
     margin-top: -50px;
   }
 
@@ -488,6 +483,7 @@
   .hero-container {
     flex-direction: column;
     width: 98%;
+    margin-top: 50px;
   }
 
   .left {
@@ -539,7 +535,6 @@
 
   .pattern-3 {
     left: 500px;
-    top: 2050px;
+    top: 2180px;
   }
-
 }
