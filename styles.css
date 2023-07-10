@@ -56,7 +56,6 @@
 
 .call-to-action a {
   text-decoration: none;
-  text-underline-offset: 8px;
   color: var(--White);
   letter-spacing: 2px;
   font-weight: 700;

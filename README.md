@@ -34,7 +34,10 @@ The users should be able to:
 
 ### Screenshot
 
-![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW8zZ3ltZ2locTQ1N3A4cTBoODVpd25xdm0wMWk1ang1c3h2bTZ0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HLY7Hgzc5hGgVhmglY/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW8zZ3ltZ2locTQ1N3A4cTBoODVpd25xdm0wMWk1ang1c3h2bTZ0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HLY7Hgzc5hGgVhmglY/giphy.gif" alt="Screenshot"/>
+</p>
+
 
 ### Links
 
