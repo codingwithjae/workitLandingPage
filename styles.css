@@ -43,9 +43,8 @@
   margin-bottom: -220px;
 }
 
-.word-underline {
-  text-decoration: underline 4px var(--Green);
-  text-underline-offset: 8px;
+.button-underline {
+  border-bottom: solid 4px var(--Green);
 }
 
 .smartphone {
@@ -56,7 +55,7 @@
 }
 
 .call-to-action a {
-  text-decoration: underline 4px var(--Green);
+  text-decoration: none;
   text-underline-offset: 8px;
   color: var(--White);
   letter-spacing: 2px;
@@ -86,7 +85,6 @@
 .button-container {
   width: 181px;
   height: 61px;
-  border: 4px solid var(--Green);
   font-family: 'Manrope', sans-serif;
   margin-top: 50px;
   text-align: center;
@@ -94,12 +92,18 @@
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  background-color: var(--Green);
+  background: var(--Green);
+  border: none;
 }
 
 .button-container:hover {
-  background-color: var(--DarkBlue);
+  background: none;
+  border: 2px solid var(--Green);
+  height: 57px
+}
 
+.button-container:hover .button {
+  color: var(--Green);
 }
 
 .container-box-2 a {
@@ -229,13 +233,12 @@
 .right a {
   text-decoration: none;
   text-transform: uppercase;
-  border: 1px solid var(--Green);
+  border: 2px solid var(--Green);
   color: var(--Green);
   padding: 20px 30px;
   display: inline-block;
   letter-spacing: 2px;
   font-family: 'Manrope', sans-serif;
-  font-weight: 400px;
   font-weight: 700;
 }
 
@@ -248,7 +251,7 @@
   display: inline-block;
   letter-spacing: 2px;
   font-family: 'Manrope', sans-serif;
-  font-weight: 400px;
+  font-weight: 700;
 }
 
 .footer-container {

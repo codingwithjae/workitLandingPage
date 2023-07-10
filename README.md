@@ -1,11 +1,11 @@
 
 
-## Welcome to Worfit Landing Page! 👋
+## Welcome to Workit Landing Page! 👋
 
 This was my first ever project of web development made from scratch. It was made using HTML and CSS.
 
 
-This is a solution to the [Worfit Landing Page!](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu). 
+This is a solution to the [Workit Landing Page!](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu)
 
 Frontend Mentor challenges help to improve coding skills by building realistic projects. 
 
@@ -34,13 +34,13 @@ The users should be able to:
 
 ### Screenshot
 
-![](resources/assets/images/preview.png)
+![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW8zZ3ltZ2locTQ1N3A4cTBoODVpd25xdm0wMWk1ang1c3h2bTZ0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HLY7Hgzc5hGgVhmglY/giphy.gif)
 
 ### Links
 
-- Solution URL: [Github](https://github.com/jaedevgithub/workitLandingPage)
+- Solution URL: [GitHub](https://github.com/jaedevgithub/workitLandingPage)
 
-- Live Site URL: [Github Pages](https://jaedevgithub.github.io/workitLandingPage/)
+- Live Site URL: [GitHub Pages](https://jaedevgithub.github.io/workitLandingPage/)
 
 ## My process
 
@@ -57,7 +57,7 @@ The users should be able to:
 
 ### What can be improve
 
-- For some reason, underlines are not working on mobile.
+- HTML can be more semantic and CSS could be implemented with BEM.
 
 ## Author
 
