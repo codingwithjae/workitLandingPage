@@ -159,7 +159,7 @@
 .container-box p {
   margin-top: -10px;
   font-size: var(--HeadingXS);
-  line-height: 22px;
+  line-height: 30px;
   padding: 25px;
   font-weight: 400;
   font-family: "Manrope", sans-serif;
@@ -220,13 +220,12 @@
   font-size: var(--HeadingM);
   font-style: normal;
   font-family: "Fraunces", serif;
-  font-weight: 600px;
+  font-weight: 600;
 }
 
 .right p {
   margin: 20px 10px;
   font-weight: 400;
-  line-height: 25px;
   font-family: "Manrope", sans-serif;
   font-size: var(--HeadingXS);
   line-height: 32px;
